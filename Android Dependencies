@@ -1,0 +1,43 @@
+Android native dependencies :----------------------
+
+-----RETROFIT--------------
+
+//Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+//Hilt 
+#############--app/build.gradle file---###########
+plugins {
+  kotlin("kapt")
+  id("com.google.dagger.hilt.android")
+}
+
+android {
+  ...
+}
+
+dependencies {
+  implementation("com.google.dagger:hilt-android:2.44")
+  kapt("com.google.dagger:hilt-android-compiler:2.44")
+  //hilt viewModel
+  implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
+  implementation("androidx.hilt:hilt-work:1.0.0")
+  // When using Kotlin.
+  kapt("androidx.hilt:hilt-compiler:1.0.0")
+
+  //Coil
+  implementation("io.coil-kt:coil-compose:2.5.0")
+}
+
+// Allow references to generated code
+kapt {
+  correctErrorTypes = true
+}
+
+#########---project's root build.gradle file---###########
+
+plugins {
+  ...
+  id("com.google.dagger.hilt.android") version "2.44" apply false
+}
