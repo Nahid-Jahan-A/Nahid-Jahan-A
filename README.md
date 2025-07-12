@@ -1,4 +1,4 @@
-<h1>Nahid - Android Developer</h1>
+<h1>hi there</h1>
 <p>Hi, I'm Nahid! I'm an Android developer with over 3 years of experience building robust and user-friendly mobile applications. Proficient in both Flutter and native Android development, I specialize in creating high-quality, performant apps with clean code and intuitive designs. Passionate about solving real-world problems through innovative mobile solutions. Explore my projects to see my work in action!</p>
 <h2>🚀 Languages and Tools I Use</h2>
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42" /></a>
